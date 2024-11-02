@@ -58,7 +58,6 @@ def mi_login():
 
 hi = tk.Label(login_top,text="选择登录方式",height=20,width=80,fg="red")
 pass_btn = tk.Button(login_top,text="账号密码登录",fg ="blue",command=mi)
-sms_btn = tk.Button(login_top,text="验证码登录",fg="blue",command=sms)
 
 sms_btn.pack()
 hi.pack()
